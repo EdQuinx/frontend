@@ -5884,6 +5884,7 @@ body.keyboard-focused .dropdown-content li:focus {
   background-color: #eee;
 }
 
+/* baolt fix menu colapse */
 li .collapsible-body {
   transition: all 1s ease-in;
 }
