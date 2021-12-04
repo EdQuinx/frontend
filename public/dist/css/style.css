@@ -5884,11 +5884,21 @@ body.keyboard-focused .dropdown-content li:focus {
   background-color: #eee;
 }
 
+li .collapsible-body {
+  transition: all 1s ease-in;
+}
+
+li.active .collapsible-body {
+  display: block;
+  height: auto;
+}
+
 .collapsible-body {
   display: none;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
   padding: 2rem;
+  
 }
 
 .sidenav .collapsible,
